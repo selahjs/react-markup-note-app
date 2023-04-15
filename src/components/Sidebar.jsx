@@ -17,7 +17,6 @@ export default function Sidebar(props){
                     onClick={(event)=>props.deleteNote(event, note.id)}
                 >
                     {/* <i className="gg-trash trash-icon"></i> */}
-                    add
                 </button>
             </div>
         </div>
